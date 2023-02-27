@@ -1,0 +1,450 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    cursor: pointer auto;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+
+  nav {
+    background-image: url(./img/bagraun\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1360px;
+    height: 768px;
+    margin: auto;
+  }
+
+  .sarlavha_div_1 {
+    display: flex;
+    margin-top: 21px;
+
+  }
+
+  .logo {
+    width: 39px;
+    height: 30px;
+    margin-top: 6px;
+
+  }
+
+  .nomi {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+
+  .nomi span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #28A745;
+    margin-right: 5px;
+  }
+
+  .navbar {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+
+  .list {
+    display: flex;
+    gap: 38px;
+  }
+
+  .list_items {
+    margin-left: 250px;
+    margin-top: 21px;
+  }
+
+  .sarlavha_2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 66px;
+    text-align: center;
+    color: #E9E9E9;
+    margin-left: 200px;
+    margin-top: 250px;
+  }
+
+  .sarlavha_3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+    text-align: center;
+    color: #E9E9E9;
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+
+  .yashil_btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #28A745;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+    margin-left: 200px;
+    margin-top: 29px;
+  }
+
+  .bank_div {
+    background: #28A745;
+    border-radius: 33.5px;
+    width: 67px;
+    height: 67px;
+    margin-left: 180px;
+  }
+
+  .bang_img {
+    padding-top: 14px;
+  }
+
+  .sarlavha {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #333333;
+    margin-top: 15px;
+  }
+
+  .sozchalar {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+    margin-top: 16px;
+  }
+
+  .katta_div_2 {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .section {
+    background: #28A745;
+  }
+
+  .odamlar {
+    margin-left: -40px;
+  }
+
+  .katta_soz_div {
+    margin-left: 150px;
+    text-align: start;
+    margin-top: 84px;
+  }
+
+  .sarlavha_4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #FFFFFF;
+  }
+
+  .sarlavha_5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: 5px;
+  }
+
+  .sozchalar_1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 26px;
+  }
+
+  .btn_1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #28A745;
+    border-radius: 10px;
+    border-color: white;
+    padding: 11px 30px;
+    margin-top: 17px;
+  }
+
+  .k_sarlavha_1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #333333;
+    margin-left: 160px;
+    margin-top: 50px;
+  }
+
+  .sarlavha_6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+    margin-left: 160px;
+    margin-top: 15px;
+  }
+
+  .sozchalar_2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+    margin-left: 160px;
+    margin-top: 34px;
+  }
+
+  .r {
+    margin-top: 7px;
+  }
+
+  .section_3 {
+    background: #0284D0;
+    margin-top: 48px;
+  }
+
+  .sanalar {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #FFFFFF;
+  }
+
+  .sarlavha_8 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: 5px;
+  }
+
+  .lorem {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 26px;
+    width: 600px;
+  }
+
+  .btn_2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #0284D0;
+    border-radius: 10px;
+    padding: 11px 28px;
+    border-color: #E9E9E9;
+    margin-top: 17px;
+  }
+
+  .sozlarni_divi_1 {
+    text-align: start;
+    margin-top: 110px;
+  }
+
+  .choy {
+    margin-left: -25px;
+  }
+
+  .Sarlavha_9 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #333333;
+    margin-left: 180px;
+
+  }
+
+  .sarlavha_10 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+    margin-top: 16px;
+    margin-left: 180px;
+  }
+
+  .sozchalar_3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+    margin-top: 16px;
+    margin-left: 180px;
+
+  }
+
+  .section_4 {
+    margin-top: 48px;
+  }
+
+  .ismi {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #333333;
+    margin-top: 13px;
+  }
+
+  .nomi {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+    margin-top: 12px;
+  }
+
+  .rasmni_div {
+    background-image: url(./img/pastki_rasm_2.png);
+    width: 428px;
+    height: 292px;
+    margin-left: -9px;
+  }
+
+  .icon_1 {
+    margin-top: 130px;
+    margin-left: 25px;
+  }
+
+  .amaki {
+    margin-top: 12px;
+  }
+
+  .section_5 {
+    background: #F4F4F4;
+    margin-top: 59px;
+  }
+
+  .btn_3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #28A745;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 210px;
+  }
+
+  .sarlavha_9 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    color: #333333;
+    text-align: start;
+  }
+
+  .input_div {
+    margin-left: 170px;
+  }
+
+  footer {
+    background: #333333;
+  }
+
+  .iconlar_2 {
+    width: 35px;
+    height: 35px;
+    margin-left: 25px;
+  }
+
+  .iconlar_div_2 {
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+
+  .gmail {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
