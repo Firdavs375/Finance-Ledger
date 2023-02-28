@@ -32,28 +32,23 @@
 
   .logo {
     width: 39px;
-    height: 30px;
-    margin-top: 6px;
+    height: 36px;
+    margin-top: 3px;
 
   }
 
-  .nomi {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 42px;
-    color: #FFFFFF;
-  }
-
-  .nomi span {
+  .nom {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
     line-height: 42px;
     color: #28A745;
-    margin-right: 5px;
+    margin-left: 10px;
+  }
+
+  .nom span {
+    color: #FFFFFF;
   }
 
   .navbar {
